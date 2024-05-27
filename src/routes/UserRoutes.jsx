@@ -1,5 +1,10 @@
 import React from "react";
+import UserDashboard from "../pages/UserDashboard";
 
 export default function UserRoutes() {
-  return <div>UserRoutes</div>;
+  return (
+    <div>
+      <UserDashboard />
+    </div>
+  );
 }
