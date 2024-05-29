@@ -8,7 +8,7 @@ import {
   setDoc,
   updateDoc,
 } from "firebase/firestore";
-import { db } from "./fire";
+import { db } from "../firebase/fire";
 
 const generateRandomID = () => {
   const characters =
